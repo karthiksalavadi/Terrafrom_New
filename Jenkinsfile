@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the code from SCM
-                git branch: 'main', url: 'https://your-repository-url.git'
+                git branch: 'https://github.com/karthiksalavadi/Terrafrom_New'
             }
         }
         
